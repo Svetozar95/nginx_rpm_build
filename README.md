@@ -1,6 +1,3 @@
-Credit to: https://github.com/mkrakowitzer/docker-nginx-rpm.
-I've taken what mkrakowitzer did and changed it suit my needs. It might also suit yours.
-
 ##
 # docker-nginx-rpm build
 
