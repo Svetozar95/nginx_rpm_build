@@ -23,9 +23,9 @@ $ docker build -t nginx_rpm .
 Note: This builds the RPMS using the current master branch of each module
 
 ```
+$ mkdir rpms
 $ docker run -v /rpms:/rpms  nginx_rpm:latest
-$ ls /rpms/RPMS/x86_64/                                                                  
-nginx-1.17.8-1.el7_4.ngx.x86_64.rpm
-nginx-debuginfo-1.17.8-1.el7_4.ngx.x86_64.rpm
-nginx-module-vts-1.17.8-1.el7_4.ngx.x86_64.rpm
+$ ls -la rpms/RPMS/x86_64/
+ nginx-1.25.5-1.el8.ngx.x86_64.rpm
+ nginx-debuginfo-1.25.5-1.el8.ngx.x86_64.rpm
 ```
